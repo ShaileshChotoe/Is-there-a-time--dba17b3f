@@ -13,6 +13,6 @@ bezoek_datum datetime(6)
 );
 
 INSERT INTO Planeten (naam, diameter, afstand_zon, massa, bezoek_datum)
-VALUES ('aarde', 198, 681, 125, '2019-01-02');
+VALUES ('maan', 198, 681, 125, '2019-01-02');
 
 SELECT * FROM Planeten;
